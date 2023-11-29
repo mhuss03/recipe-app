@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function RecipeGrid({ id, filter }) {
+export default function RecipeGrid({ id, filter, searchFilter }) {
   const [recipeData, setRecipeData] = useState({
     title: "",
     image: "",
@@ -14,7 +14,11 @@ export default function RecipeGrid({ id, filter }) {
       .then((response) => response.json())
       .then((data) => {
         const recipe = data.recipes[id - 1];
-        if (recipe.type === filter || filter === "all") {
+        console.log();
+        if (
+          (recipe.type === filter || filter === "all") &&
+          recipe.title.toLowerCase().includes(searchFilter.toLowerCase())
+        ) {
           setRecipeData({
             title: recipe.title,
             image: recipe.image,
@@ -32,7 +36,7 @@ export default function RecipeGrid({ id, filter }) {
           });
         }
       });
-  }, [id, filter]);
+  }, [id, filter, searchFilter]);
 
   if (recipeData.title === "") {
     return null;

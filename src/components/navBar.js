@@ -18,7 +18,7 @@ export default function NavBar({ onClick }) {
 
   return (
     <>
-      <ul className="flex h-full w-full flex-col items-center justify-evenly text-lg font-semibold text-gray-500">
+      <ul className="flex h-full w-full flex-col items-center justify-evenly text-lg font-semibold tracking-widest text-gray-500">
         <li className="w-10/12">
           <button
             className={`button ${selected === 0 ? buttonClasses : ""}`}

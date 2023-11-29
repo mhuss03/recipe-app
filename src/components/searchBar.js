@@ -1,4 +1,20 @@
-export default function SearchBar() {
+import { useState, useEffect } from "react";
+
+export default function SearchBar({ onChange }) {
+  const [search, setSearch] = useState("");
+
+  function searchFilter(e) {
+    setSearch(e.target.value);
+  }
+
+  useEffect(() => {
+    const delayedChange = setTimeout(() => {
+      onChange(search);
+    }, 200);
+
+    return () => clearTimeout(delayedChange);
+  }, [search, onChange]);
+
   return (
     <div className="flex w-60 rounded-full border-2 bg-white p-2 sm:w-96">
       <button className="mr-4">
@@ -22,6 +38,7 @@ export default function SearchBar() {
         className="w-full bg-inherit outline-none"
         maxLength={24}
         placeholder="Search Recipes"
+        onChange={searchFilter}
       />
     </div>
   );
