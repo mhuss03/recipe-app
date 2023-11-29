@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import NavBar from "./components/navBar";
 import RecipeGrid from "./components/recipeGrid";
 import SearchBar from "./components/searchBar";
@@ -25,7 +25,7 @@ export default function App() {
         />
         <SearchBar onChange={handleChange} />
       </div>
-      <div className="h-100% mx-auto grid w-3/4 grid-cols-1 sm:mx-0 sm:grid-cols-2 md:grid-cols-3">
+      <div className="mx-auto grid h-full w-3/4 grid-cols-1 sm:mx-0 sm:grid-cols-2 md:grid-cols-3">
         <RecipeGrid id="1" filter={filterValue} searchFilter={searchValue} />
         <RecipeGrid id="2" filter={filterValue} searchFilter={searchValue} />
         <RecipeGrid id="3" filter={filterValue} searchFilter={searchValue} />
