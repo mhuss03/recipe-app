@@ -1,0 +1,249 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Spaghetti Bolognese",
+      "ingredients": [
+        "400g spaghetti",
+        "500g ground beef",
+        "1 onion, diced",
+        "2 cloves garlic, minced",
+        "1 can (400g) crushed tomatoes",
+        "1 tablespoon tomato paste",
+        "1 teaspoon dried oregano",
+        "1 teaspoon dried basil",
+        "Salt and pepper to taste",
+        "Grated Parmesan cheese for serving"
+      ],
+      "instructions": [
+        "Cook the spaghetti according to package instructions.",
+        "In a large pan, brown the ground beef over medium heat.",
+        "Add diced onion and minced garlic to the pan. Cook until onion is soft.",
+        "Stir in crushed tomatoes, tomato paste, oregano, basil, salt, and pepper.",
+        "Simmer the sauce for 15-20 minutes.",
+        "Serve the sauce over cooked spaghetti. Top with grated Parmesan cheese."
+      ],
+      "image": "data/img/spaghetti_bolognese.jpg",
+      "time": "30 minutes",
+      "comments": 35,
+      "likes": 64,
+      "type": "main"
+    },
+    {
+      "id": 2,
+      "title": "Chicken Caesar Salad",
+      "ingredients": [
+        "2 boneless, skinless chicken breasts",
+        "Romaine lettuce, chopped",
+        "1 cup cherry tomatoes, halved",
+        "1/2 cup croutons",
+        "1/4 cup grated Parmesan cheese",
+        "Caesar dressing"
+      ],
+      "instructions": [
+        "Season chicken breasts with salt and pepper.",
+        "Grill or cook chicken until fully cooked. Slice into strips.",
+        "In a large bowl, combine chopped Romaine lettuce, cherry tomatoes, croutons, and Parmesan cheese.",
+        "Add sliced chicken to the salad.",
+        "Drizzle Caesar dressing over the salad and toss to combine.",
+        "Serve immediately."
+      ],
+      "image": "data/img/chicken_caesar_salad.jpg",
+      "time": "30 minutes",
+      "comments": 22,
+      "likes": 55,
+      "type": "side"
+    },
+    {
+      "id": 3,
+      "title": "Vegetarian Pizza",
+      "ingredients": [
+        "Pizza dough",
+        "1/2 cup tomato sauce",
+        "1 cup shredded mozzarella cheese",
+        "1/2 cup sliced bell peppers",
+        "1/2 cup sliced red onions",
+        "1/2 cup sliced black olives",
+        "Fresh basil leaves",
+        "Olive oil for drizzling"
+      ],
+      "instructions": [
+        "Preheat oven to 450°F (230°C).",
+        "Roll out pizza dough on a floured surface.",
+        "Spread tomato sauce over the dough, leaving a border around the edges.",
+        "Sprinkle shredded mozzarella cheese evenly over the sauce.",
+        "Top with sliced bell peppers, red onions, and black olives.",
+        "Bake in the preheated oven for 12-15 minutes or until crust is golden and cheese is melted.",
+        "Remove from the oven, sprinkle fresh basil leaves, and drizzle with olive oil.",
+        "Slice and enjoy!"
+      ],
+      "image": "data/img/pizza.jpg",
+      "time": "30 minutes",
+      "comments": 15,
+      "likes": 12,
+      "type": "main"
+    },
+    {
+      "id": 4,
+      "title": "Grilled Salmon with Lemon-Dill Sauce",
+      "ingredients": [
+        "4 salmon fillets",
+        "2 tablespoons olive oil",
+        "1 tablespoon lemon juice",
+        "2 cloves garlic, minced",
+        "1 teaspoon dried dill",
+        "Salt and pepper to taste",
+        "Fresh lemon wedges for serving"
+      ],
+      "instructions": [
+        "Preheat the grill to medium-high heat.",
+        "In a small bowl, whisk together olive oil, lemon juice, minced garlic, dried dill, salt, and pepper.",
+        "Brush the salmon fillets with the lemon-dill mixture.",
+        "Grill the salmon for 4-5 minutes per side or until cooked through.",
+        "Serve the grilled salmon with fresh lemon wedges."
+      ],
+      "image": "data/img/grilled_salmon.jpg",
+      "time": "20 minutes",
+      "comments": 18,
+      "likes": 42,
+      "type": "main"
+    },
+    {
+      "id": 5,
+      "title": "Vegetable Stir-Fry",
+      "ingredients": [
+        "2 cups broccoli florets",
+        "1 bell pepper, sliced",
+        "1 carrot, julienned",
+        "1 cup snow peas",
+        "2 tablespoons soy sauce",
+        "1 tablespoon sesame oil",
+        "1 tablespoon olive oil",
+        "2 cloves garlic, minced",
+        "1 teaspoon grated ginger",
+        "Cooked rice for serving"
+      ],
+      "instructions": [
+        "Heat olive oil in a wok or large skillet over medium-high heat.",
+        "Add minced garlic and grated ginger, stir-fry for 30 seconds.",
+        "Add broccoli, bell pepper, carrot, and snow peas. Stir-fry for 5-7 minutes or until vegetables are tender-crisp.",
+        "In a small bowl, mix soy sauce and sesame oil. Pour the sauce over the vegetables and toss to combine.",
+        "Serve the vegetable stir-fry over cooked rice."
+      ],
+      "image": "data/img/stir_fry.jpg",
+      "time": "15 minutes",
+      "comments": 10,
+      "likes": 30,
+      "type": "side"
+    },
+    {
+      "id": 6,
+      "title": "Classic Margherita Pizza",
+      "ingredients": [
+        "Pizza dough",
+        "1/2 cup tomato sauce",
+        "1 1/2 cups fresh mozzarella, sliced",
+        "Fresh basil leaves",
+        "Olive oil for drizzling",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat oven to 475°F (245°C).",
+        "Roll out pizza dough on a floured surface.",
+        "Spread tomato sauce over the dough, leaving a border around the edges.",
+        "Arrange sliced fresh mozzarella evenly over the sauce.",
+        "Bake in the preheated oven for 10-12 minutes or until crust is golden and cheese is bubbly.",
+        "Remove from the oven, sprinkle fresh basil leaves, drizzle with olive oil, and season with salt and pepper.",
+        "Slice and enjoy the classic Margherita pizza!"
+      ],
+      "image": "data/img/margherita_pizza.jpg",
+      "time": "25 minutes",
+      "comments": 25,
+      "likes": 50,
+      "type": "main"
+    },
+    {
+      "id": 7,
+      "title": "Shrimp Scampi",
+      "ingredients": [
+        "8 oz linguine pasta",
+        "1 lb large shrimp, peeled and deveined",
+        "3 tablespoons unsalted butter",
+        "3 tablespoons olive oil",
+        "4 cloves garlic, minced",
+        "1/2 teaspoon red pepper flakes",
+        "1/4 cup dry white wine",
+        "Juice of 1 lemon",
+        "Salt and pepper to taste",
+        "Chopped parsley for garnish"
+      ],
+      "instructions": [
+        "Cook linguine pasta according to package instructions.",
+        "In a large skillet, heat olive oil and butter over medium heat.",
+        "Add minced garlic and red pepper flakes. Sauté for 1-2 minutes until garlic is fragrant.",
+        "Add shrimp to the skillet and cook until pink, about 2-3 minutes per side.",
+        "Pour in white wine and lemon juice, and season with salt and pepper.",
+        "Toss the cooked linguine with the shrimp mixture. Garnish with chopped parsley.",
+        "Serve the shrimp scampi immediately."
+      ],
+      "image": "data/img/shrimp_scampi.jpg",
+      "time": "20 minutes",
+      "comments": 28,
+      "likes": 60,
+      "type": "starter"
+    },
+    {
+      "id": 8,
+      "title": "Caprese Salad",
+      "ingredients": [
+        "4 large tomatoes, sliced",
+        "8 oz fresh mozzarella, sliced",
+        "Fresh basil leaves",
+        "Balsamic glaze for drizzling",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Arrange alternating slices of tomatoes and fresh mozzarella on a serving platter.",
+        "Tuck fresh basil leaves between the tomato and mozzarella slices.",
+        "Drizzle balsamic glaze over the salad.",
+        "Season with salt and pepper to taste.",
+        "Serve the refreshing Caprese salad as a side or appetizer."
+      ],
+      "image": "data/img/caprese_salad.jpg",
+      "time": "10 minutes",
+      "comments": 15,
+      "likes": 35,
+      "type": "starter"
+    },
+    {
+      "id": 9,
+      "title": "Homemade Chicken Noodle Soup",
+      "ingredients": [
+        "1 lb boneless, skinless chicken breasts",
+        "8 cups chicken broth",
+        "2 cups egg noodles",
+        "2 carrots, sliced",
+        "2 celery stalks, chopped",
+        "1 onion, diced",
+        "3 cloves garlic, minced",
+        "1 teaspoon dried thyme",
+        "Salt and pepper to taste",
+        "Fresh parsley for garnish"
+      ],
+      "instructions": [
+        "In a large pot, combine chicken broth, sliced carrots, chopped celery, diced onion, minced garlic, dried thyme, salt, and pepper.",
+        "Bring the broth to a boil, then reduce the heat to simmer.",
+        "Add boneless, skinless chicken breasts and cook until chicken is cooked through, about 15-20 minutes.",
+        "Remove the cooked chicken from the pot and shred it. Return the shredded chicken to the pot.",
+        "Add egg noodles to the pot and cook until tender.",
+        "Season the chicken noodle soup with additional salt and pepper if needed.",
+        "Garnish with fresh parsley before serving."
+      ],
+      "image": "data/img/chicken_noodle_soup.jpg",
+      "time": "40 minutes",
+      "comments": 20,
+      "likes": 48,
+      "type": "dessert"
+    }
+  ]
+}
